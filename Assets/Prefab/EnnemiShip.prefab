@@ -129,10 +129,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeMax: Infinity
   time: 0
-  hpMax: 100
-  hp: 100
+  hpMax: 20
+  hp: 20
   invincible: 0
-  velocity: {x: 0, y: -2, z: 0}
+  velocity: {x: 0, y: -3, z: 0}
   angularVelocity: {x: 0, y: 0, z: 0}
   drag: 0
 --- !u!114 &3020564797277197044
@@ -147,7 +147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f89b6d6339ec14390bd562b96cdcee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sources: []
+  sources:
+  - {fileID: 3295947986180169960, guid: 6123b3e10cea4474391e7601d4485a5d, type: 3}
+  - {fileID: 7838741671002507161, guid: bcb527e9a2bf5a04eb8870e717492c28, type: 3}
+  - {fileID: 8098565955110809880, guid: 8ac86741b34f54a498ca9a89a6b4e4bc, type: 3}
+  - {fileID: 4848843183542350642, guid: bb3d02826e528a748908b3390123cd8c, type: 3}
+  - {fileID: 3276116419085291717, guid: 927b329fd257fff4fb90aa90f9394a4b, type: 3}
   count: 8
   mode: 0
   velocity: 4
